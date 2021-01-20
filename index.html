@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Турнир</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="./tournament.css"
+    />
+  </head>
+  <body>
+    <div class="container cont0">
+      <div class="row row0">
+        <div class="tournament-button col-lg-4 offset-lg-4">
+          <div class="dropdown">
+            <button class="btn btn-primary dropbtn">Выбор участников</button>
+            <div id="myDropdown" class="dropdown-content item-block">
+              <button
+                class="btn btn-primary button-begin"
+                data-bs-toggle="button"
+                autocomplete="off"
+              >
+                Начать
+              </button>
+            </div>
+          </div>
+
+          <div class="results">
+            <div id="myResults" class="dropdown-content item-block">
+              <button class="btn btn-primary close-res dropbtn">Закрыть</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container cont1">
+      <div class="row row1">
+        <div class="column col-lg-4 col-md-5 col-sm-6">
+          <div
+            class="box left item-block animate__animated animate__fadeIn"
+          ></div>
+          <p class="headers header-left"></p>
+        </div>
+
+        <div
+          class="column col-lg-4 offset-lg-4 col-md-5 offset-md-2 col-sm-6 offset-sm-0"
+        >
+          <div
+            class="box right item-block animate__animated animate__fadeIn"
+          ></div>
+          <p class="headers header-right"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./list.js"></script>
+    <script src="./tournament1.js"></script>
+  </body>
+</html>

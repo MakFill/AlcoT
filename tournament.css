@@ -1,0 +1,152 @@
+body {
+  font-size: 10px;
+  text-align: center;
+  /* background: url(background.jpg) center no-repeat; */
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  padding: 2rem 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont1 {
+  height: 400px;
+}
+
+.row1 {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.row0 {
+  position: relative;
+  z-index: 9;
+}
+
+button {
+  display: block;
+}
+
+.button-begin {
+  margin: 1rem auto;
+  z-index: 9;
+  position: sticky;
+  top: 0%;
+}
+
+.close-res {
+  position: sticky;
+  z-index: 9;
+  top: 0%;
+}
+
+p {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 2.5rem;
+  color: whitesmoke;
+}
+
+.item-block {
+  display: inline-block;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.row {
+  margin-top: 2rem;
+  animation-duration: 5s;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.images-block {
+  height: 100%;
+  width: 10%;
+}
+
+img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+/*Список*/
+.dropbtn {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  /* width: 10%; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+
+.dropdown-content img {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+#myResults {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.show {
+  display: block;
+}
+
+.choosen {
+  background-color: rgba(4, 0, 255, 0.1);
+}
+
+/* @media (max-width: 991px) {
+  .button-begin {
+    width: 14%;
+    right: 43%;
+  }
+} */
+
+@media (max-width: 576px) {
+  /* .cont1 {
+    height: 300px;
+  } */
+  .cont1 {
+    height: 470px;
+  }
+  .box-left {
+    height: 50%;
+  }
+  .box-right {
+    height: 50%;
+  }
+}
